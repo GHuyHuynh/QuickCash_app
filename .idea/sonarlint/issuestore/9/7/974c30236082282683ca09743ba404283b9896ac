@@ -1,0 +1,14 @@
+
+>
+java:S1604C"(Make this anonymous inner class a lambda(¾‡µà
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½¨…£
+o
+java:S1450"YRemove the "backButton" field and declare it as a local variable in the relevant methods.(×¿šô
+n
+java:S1450"SRemove the "mMap" field and declare it as a local variable in the relevant methods.(—­ƒÌÿÿÿÿÿ
+p
+java:S1450"ZRemove the "mapFragment" field and declare it as a local variable in the relevant methods.(Åýùô
+q
+java:S1450"[Remove the "userLatitude" field and declare it as a local variable in the relevant methods.(ÅÆ»÷
+r
+java:S1450"\Remove the "userLongitude" field and declare it as a local variable in the relevant methods.(Úçêâ

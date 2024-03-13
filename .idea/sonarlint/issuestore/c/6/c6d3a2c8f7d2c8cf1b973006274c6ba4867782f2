@@ -1,0 +1,35 @@
+
+D
+java:S1604U"(Make this anonymous inner class a lambda(Ñ‚Ì48£ÊÂÛÂ1
+F
+java:S1604š"(Make this anonymous inner class a lambda(Ëæ«€8£ÊÂÛÂ1
+E
+java:S1604ò"(Make this anonymous inner class a lambda(ÅÚå?8¤ÊÂÛÂ1
+K
+java:S1604¶"(Make this anonymous inner class a lambda(›‹û†ùÿÿÿÿ8¥ÊÂÛÂ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½¨…£8â¥³Â1
+g
+java:S2259¡"IA "NullPointerException" could be thrown; "userAddress" is nullable here.(æÛƒ8ëÊÂÛÂ1
+}	java:S116<"\Rename this field "PREVIOUS_ACTIVITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·šÎ´øÿÿÿÿ8îÊÂÛÂ1
+N
+java:S16593"1Declare "typedLocationButton" on a separate line.(¶ôÇı8÷ÊÂÛÂ1
+…
+java:S14509"cRemove the "backToWorkerActivity" field and declare it as a local variable in the relevant methods.(Üæä„ùÿÿÿÿ8ùÊÂÛÂ1
+w
+java:S14501"URemove the "client" field and declare it as a local variable in the relevant methods.(Î‘êùÿÿÿÿ8ùÊÂÛÂ1
+}
+java:S14507"[Remove the "userDataBase" field and declare it as a local variable in the relevant methods.(Öğ³üÿÿÿÿ8úÊÂÛÂ1
+\
+java:S1854H":Remove this useless assignment to local variable "editor".(€Ë¥³ıÿÿÿÿ8ˆËÂÛÂ1
+M
+java:S1481H"+Remove this unused "editor" local variable.(€Ë¥³ıÿÿÿÿ8ŠËÂÛÂ1
+Y
+java:S1874ˆ";Remove this use of "getFromLocationName"; it is deprecated.(½Û•½8ËÂÛÂ1
+_
+java:S1126"AReplace this if-then-else statement by a single return statement.(­µã•8ËÂÛÂ1
+^
+java:S1874Â";Remove this use of "getFromLocationName"; it is deprecated.(çùíÙşÿÿÿÿ8©ËÂÛÂ1
+U
+java:S1874£"7Remove this use of "getFromLocation"; it is deprecated.(‘àÇ…8½ËÂÛÂ1
+]
+java:S1161Ò":Add the "@Override" annotation above this method signature(èëÔíÿÿÿÿÿ8ÇËÂÛÂ1

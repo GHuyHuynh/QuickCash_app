@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neutral50"
+    android:orientation="vertical">
+
+    <!-- Title for Keyword Management -->
+    <Button
+        android:id="@+id/buttonReturnToJobPostings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@color/darkBlue"
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+        android:fontFamily="@font/sfpro"
+        android:onClick="returnToJobPostings"
+        android:text="Return"
+        android:textAlignment="textStart"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewKeywordManagementTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/sfpro"
+        android:gravity="center"
+        android:text="Add New Job Preferences"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- EditText for Entering New Keyword -->
+    <EditText
+        android:id="@+id/editTextNewKeyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/sfpro"
+        android:hint="Enter New Keyword" />
+
+    <!-- Button to Add New Keyword -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAddKeyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/lightBlue"
+            android:fontFamily="@font/sfpro"
+            android:gravity="center"
+            android:onClick="addKeyword"
+            android:text="Add Keyword"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buttonDeleteKeyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/lightGrey"
+            android:fontFamily="@font/sfpro"
+            android:gravity="center"
+            android:onClick="deleteKeyword"
+            android:text="Delete Keyword"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Button to Delete Keyword -->
+
+    <!-- Button to Return to Job Postings -->
+
+
+    <!-- Divider Line -->
+
+    <!-- Title for Existing Keywords -->
+    <TextView
+        android:id="@+id/textViewExistingKeywordsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/sfpro"
+        android:text="Existing Preferences:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!-- ListView to Display Existing Keywords -->
+    <ListView
+        android:id="@+id/listViewExistingKeywords"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:choiceMode="singleChoice"
+        android:divider="#000000"
+        android:dividerHeight="1dp"
+        android:padding="5dp" />
+
+</LinearLayout>

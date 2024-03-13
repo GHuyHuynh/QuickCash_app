@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlue"
+    android:orientation="vertical"
+    tools:context=".Employee.EmployeeProfileActivity">
+
+    <Button
+        android:id="@+id/user_profile_back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+        android:text="Return"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darkBlue"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/user_profile_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/light_blue_bg"
+                android:padding="10dp"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/profile_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro"
+                android:text="Username"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro"
+                android:gravity="center"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/user_total_salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/sfpro"
+                android:text="Total Salary"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="25dp" />
+
+            <RatingBar
+                android:id="@+id/userRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:isIndicator="true"
+                android:numStars="5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@android:color/transparent"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/job_history_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/lightBlue"
+                    android:fontFamily="@font/sfpro"
+                    android:text="Job History"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/job_postings_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/lightBlue"
+                    android:fontFamily="@font/sfpro"
+                    android:text="Jobs Posted"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/rateUser"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/lightBlue"
+                    android:fontFamily="@font/sfpro"
+                    android:text="Add Rating"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@color/white"
+                android:fontFamily="@font/sfpro"
+                android:orientation="vertical"
+                android:text="See User Job History"
+                android:textSize="16sp">
+
+                <ListView
+                    android:id="@+id/feedbackList"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_margin="3dp"
+                    android:background="@color/neutral50"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="5dp"
+                    android:padding="8dp"
+                    tools:listitem="@layout/adapter_feedback" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

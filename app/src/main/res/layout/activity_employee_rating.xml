@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/blue_gradiant_backgroud"
+    tools:context=".Credentials.SignupActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro"
+                android:text="Rate User"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/user_rateBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5" />
+
+            <EditText
+                android:id="@+id/user_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Feedback"
+                android:inputType="text"
+                android:maxLength="250"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/darkBlue" />
+
+            <Button
+                android:id="@+id/user_submit_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:fontFamily="@font/sfpro"
+                android:text="Submit"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/userRedirect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000090C1"
+                android:fontFamily="@font/sfpro"
+                android:text="Return"
+                android:textColor="@color/darkBlue"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

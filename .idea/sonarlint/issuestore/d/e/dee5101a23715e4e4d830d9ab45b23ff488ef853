@@ -1,0 +1,10 @@
+
+m
+java:S1192,"PDefine a constant instead of duplicating this literal "extractUsername" 3 times.(‰Ó“8ŠƒûÜÂ1
+E
+java:S16043"(Make this anonymous inner class a lambda(Øş®8‹ƒûÜÂ1
+E
+java:S1604;"(Make this anonymous inner class a lambda(ò®Æ8‹ƒûÜÂ1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸ù¯†
+]
+java:S1117}"BRename "resumeDataBase" which hides the field declared at line 34.(Îœ“Ëûÿÿÿÿ

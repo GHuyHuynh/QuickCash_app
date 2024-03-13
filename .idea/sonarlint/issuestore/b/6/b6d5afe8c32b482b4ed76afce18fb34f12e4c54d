@@ -1,0 +1,8 @@
+
+†
+java:S1319"pThe type of "jobPostArrayList" should be an interface such as "List" rather than the implementation "ArrayList".(Æœº¼
+L
+java:S11536"1Directly append the argument of String.valueOf().(ªŽÑýøÿÿÿÿ
+L
+java:S1153:"1Directly append the argument of String.valueOf().(¯Ê‡‹ûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¥¤÷

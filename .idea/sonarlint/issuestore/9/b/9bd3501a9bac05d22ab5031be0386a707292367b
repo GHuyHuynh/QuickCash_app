@@ -1,0 +1,18 @@
+
+l
+java:S1192"PDefine a constant instead of duplicating this literal "extractUsername" 4 times.(õ×‰ñøÿÿÿÿ
+_
+java:S1192<"IDefine a constant instead of duplicating this literal "username" 3 times.(§âéñ
+C
+java:S1604F"(Make this anonymous inner class a lambda(š”ìüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„İÜÛÿÿÿÿÿ
+D
+java:S1948&".Make "jobsListView" transient or serializable.(œ¾‹•
+C
+java:S1948)"-Make "jobDataBase" transient or serializable.(¶À¹•
+Q
+java:S1948*"6Make "jobDatabaseReference" transient or serializable.(çÊ¨«ÿÿÿÿÿ
+D
+java:S1948,".Make "returnButton" transient or serializable.(²ãŠ
+H
+java:S1948-"-Make "applyButton" transient or serializable.(ìÃòÍøÿÿÿÿ

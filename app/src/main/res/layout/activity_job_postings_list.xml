@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlue"
+    android:orientation="vertical"
+    tools:context=".Employee.EmployeeJobPostedHistory">
+
+    <!-- Job Postings Title -->
+    <Button
+        android:id="@+id/btnReturnToEmployeeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+        android:fontFamily="@font/sfpro"
+        android:text="Return"
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_jobPostingsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:fontFamily="@font/sfpro"
+        android:padding="8dp"
+        android:text="Job Posted"
+        android:textAlignment="center"
+        android:textColor="@color/neutral50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- ListView for Jobs Posted by User-->
+    <ListView
+        android:id="@+id/listView_JobsFromUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:padding="8dp" />
+
+</LinearLayout>

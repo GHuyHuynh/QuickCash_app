@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlue">
+
+    <!-- Title for Suggested Employees -->
+    <TextView
+        android:id="@+id/adapter_job_employer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfpro"
+        android:text="Suggested Employees"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <!-- ListView for Suggested Employees -->
+    <ListView
+        android:id="@+id/userListing"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/btnReturnToEmployerActivity"
+        android:layout_below="@id/adapter_job_employer"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:padding="7dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/user_list" />
+
+    <!-- Return Button -->
+    <Button
+        android:id="@+id/btnReturnToEmployerActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/sfpro"
+        android:text="Return"
+        android:textSize="16sp" />
+
+</RelativeLayout>

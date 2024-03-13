@@ -1,0 +1,17 @@
+
+Q
+java:S3740F"/Provide the parametrized type for this generic.(†Õçüÿÿÿÿ8‹€÷€»1
+r	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç’„Õøÿÿÿÿ8˜€÷€»1
+E
+java:S1604o"(Make this anonymous inner class a lambda(ñÒ£Ğ8˜€÷€»1
+K
+java:S1604"(Make this anonymous inner class a lambda(“ÍŸ’ÿÿÿÿÿ8˜€÷€»1
+h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³‡I8Ğ™µ»1
+N
+java:S1153g"1Directly append the argument of String.valueOf().(í«¦8«€÷€»1
+N
+java:S1153i"1Directly append the argument of String.valueOf().(êØ‘¨8«€÷€»1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¥¤÷
+]	java:S125{"<This block of commented-out lines of code should be removed.(¿ÉÒäşÿÿÿÿ8Ì÷€»1
+H
+java:S1144™"+Remove this unused private "remove" method.(ÿ“Ú-8 ‚÷€»1

@@ -1,0 +1,21 @@
+
+
+java:S1319t"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(¡ô™øÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„İÜÛÿÿÿÿÿ
+}	java:S116'"\Rename this field "PREVIOUS_ACTIVITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·šÎ´øÿÿÿÿ8‰Õ±Â1
+—
+java:S1186h"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+W
+java:S1117]"<Rename "username" which hides the field declared at line 31.(Âæøÿÿÿÿ
+[
+java:S1858]"@"getKey" returns a string, there's no need to call "toString()".(Âæøÿÿÿÿ
+[
+java:S1117_"9Rename "email" which hides the field declared at line 32.(äç§¸ÿÿÿÿÿ8¡Õ±Â1
+j
+java:S1871~"MThis branch's code block is the same as the block for the branch on line 118.(å¥‡8ÙÙÂÛÂ1
+^
+java:S1858v"A"getName" returns a string, there's no need to call "toString()".(¬ÿö‹8¥Õ±Â1
+c
+java:S1858z"A"getName" returns a string, there's no need to call "toString()".(µ´Áõúÿÿÿÿ8¦Õ±Â1
+V
+java:S1161£":Add the "@Override" annotation above this method signature(èëÔíÿÿÿÿÿ

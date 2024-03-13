@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_gradiant_backgroud"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Credentials.LoginActivity"
+    android:id="@+id/login">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/neutral50"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro"
+                android:text="Pay"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/payement_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Username"
+                android:padding="8dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/payement_amount"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/baseline_attach_money_24"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Amount"
+                android:padding="8dp"
+                android:textColor="@color/darkBlue" />
+
+            <Button
+                android:id="@+id/payement_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:fontFamily="@font/sfpro"
+                android:text="Pay with PayPal"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+            <TextView
+                android:id="@+id/redirectBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/sfpro"
+                android:padding="8dp"
+                android:text="Back"
+                android:textColor="@color/lightBlue" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

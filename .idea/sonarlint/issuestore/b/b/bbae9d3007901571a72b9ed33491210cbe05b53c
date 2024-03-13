@@ -1,0 +1,29 @@
+
+l
+java:S1192¬"PDefine a constant instead of duplicating this literal "extractUsername" 4 times.(õ×‰ñøÿÿÿÿ
+l	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ‘ó²øÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆøñƒüÿÿÿÿ
+}
+java:S1450/"bRemove the "switchPreferredJobs" field and declare it as a local variable in the relevant methods.(¤»¡Óÿÿÿÿÿ
+v
+java:S14504"[Remove the "userDataBase" field and declare it as a local variable in the relevant methods.(ŽÖð³üÿÿÿÿ
+G
+java:S1948-"1Make "allJobsListView" transient or serializable.(Ëæ™Ç
+M
+java:S1948."7Make "preferredJobsListView" transient or serializable.(Ýõ€ý
+P
+java:S1948/"5Make "switchPreferredJobs" transient or serializable.(¤»¡Óÿÿÿÿÿ
+C
+java:S19481"-Make "jobDataBase" transient or serializable.(¶À¹•
+Q
+java:S19482"6Make "jobDatabaseReference" transient or serializable.(çÊ¨«ÿÿÿÿÿ
+I
+java:S19484".Make "userDataBase" transient or serializable.(ŽÖð³üÿÿÿÿ
+R
+java:S19485"7Make "userDatabaseReference" transient or serializable.(ç—ëÙþÿÿÿÿ
+U
+java:S1854N":Remove this useless assignment to local variable "editor".(€Ë¥³ýÿÿÿÿ
+F
+java:S1481N"+Remove this unused "editor" local variable.(€Ë¥³ýÿÿÿÿ
+E
+java:S1068,"/Remove this unused "allBossList" private field.(Èãƒý

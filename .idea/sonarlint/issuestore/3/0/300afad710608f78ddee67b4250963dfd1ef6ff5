@@ -1,0 +1,18 @@
+
+J
+java:S1604A"(Make this anonymous inner class a lambda(¸èî˜øÿÿÿÿ8¨õÀÀ1
+J
+java:S1604Y"(Make this anonymous inner class a lambda(®åÔŞÿÿÿÿÿ8¤ÈÙ¼¿1
+o
+java:S1104#"RMake config a static final constant or non-public and provide accessors if needed.(¨Ø¸8¤ÈÙ¼¿1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(åŸÇœûÿÿÿÿ8¥ÈÙ¼¿1
+d
+java:S2259~"BA "NullPointerException" could be thrown; "data" is nullable here.(ëÎ¬Úıÿÿÿÿ8ºÈÙ¼¿1
+T
+java:S18741"7Remove this use of "getSerializable"; it is deprecated.(¬¤Áä8ãõÀÀ1
+\
+java:S1854‚">Remove this useless assignment to local variable "jsonObject".(ã­÷³8œåóÜÂ1
+\
+java:S1874~":Remove this use of "getParcelableExtra"; it is deprecated.(ëÎ¬Úıÿÿÿÿ8ÏÈÙ¼¿1
+M
+java:S1481‚"/Remove this unused "jsonObject" local variable.(ã­÷³8ŸåóÜÂ1

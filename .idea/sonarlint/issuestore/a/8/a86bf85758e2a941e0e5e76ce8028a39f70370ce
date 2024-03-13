@@ -1,0 +1,17 @@
+
+>
+java:S1604t"(Make this anonymous inner class a lambda(«×êí
+?
+java:S1604‚"(Make this anonymous inner class a lambda(éôýÒ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¥¤÷
+t	java:S116ž"YRename this field "Result_jobName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£å…‹ùÿÿÿÿ
+u	java:S116ž"ZRename this field "Result_employer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£å…‹ùÿÿÿÿ
+s	java:S116ž"XRename this field "Result_jobKey" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£å…‹ùÿÿÿÿ
+p	java:S116ž"URename this field "Result_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£å…‹ùÿÿÿÿ
+q	java:S116ž"VRename this field "Result_flag" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£å…‹ùÿÿÿÿ
+t	java:S116Ÿ"^Rename this field "resumeResult_ignore" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ÕÊä
+r	java:S116Ÿ"\Rename this field "resumeResult_read" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ÕÊä
+h
+java:S1659ž"LDeclare "Result_employer" and all following declarations on a separate line.(£å…‹ùÿÿÿÿ
+F
+java:S1659Ÿ"/Declare "resumeResult_read" on a separate line.(©ÕÊä

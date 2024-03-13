@@ -1,0 +1,21 @@
+
+
+java:S1319o"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(¡ô™øÿÿÿÿ
+>
+java:S16049"(Make this anonymous inner class a lambda(×”þö
+=
+java:S1604z"(Make this anonymous inner class a lambda(•ÁñS
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÝÜÛÿÿÿÿÿ
+v	java:S116("\Rename this field "PREVIOUS_ACTIVITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·šÎ´øÿÿÿÿ
+v
+java:S1450%"[Remove the "userDatabase" field and declare it as a local variable in the relevant methods.(ø‹Á°úÿÿÿÿ
+
+java:S1450&"dRemove the "userDatabaseReference" field and declare it as a local variable in the relevant methods.(ç—ëÙþÿÿÿÿ
+—
+java:S1186e"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+V
+java:S1858X"@"getKey" returns a string, there's no need to call "toString()".(©“½Õ
+W
+java:S1858p"A"getName" returns a string, there's no need to call "toString()".(¬ÿö‹
+\
+java:S1858t"A"getName" returns a string, there's no need to call "toString()".(µ´Áõúÿÿÿÿ

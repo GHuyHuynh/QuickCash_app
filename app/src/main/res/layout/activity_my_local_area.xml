@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_gradiant_backgroud"
+    android:orientation="vertical"
+    tools:context=".MyLocalArea.MyLocalAreaActivity">
+
+    <TextView
+        android:id="@+id/backToUserList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+        android:padding="8dp"
+        android:text="Return"
+        android:textColor="@color/neutral50"
+        android:textSize="20sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/neutral50"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro"
+                android:text="My Local Area"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/local_location"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Enter your Location or Postal Code"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/darkBlue" />
+
+            <Button
+                android:id="@+id/submit_location_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:fontFamily="@font/sfpro"
+                android:text="Submit Location"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro"
+                android:padding="5dp"
+                android:text="or"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/enable_location_service_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:fontFamily="@font/sfpro"
+                android:text="Use Device Location Detection"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

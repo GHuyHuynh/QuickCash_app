@@ -1,0 +1,19 @@
+
+J
+java:S3740+"/Provide the parametrized type for this generic.(†Õçüÿÿÿÿ
+C
+java:S1604E"(Make this anonymous inner class a lambda(‘¼Õêÿÿÿÿÿ
+C
+java:S1604Q"(Make this anonymous inner class a lambda(”ˆà«øÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÂÕ™Ç
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¥¤÷
+s	java:S116g"YRename this field "resume_jobName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íİƒ±ùÿÿÿÿ
+t	java:S116g"ZRename this field "resume_employee" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íİƒ±ùÿÿÿÿ
+r	java:S116g"XRename this field "resume_jobKey" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íİƒ±ùÿÿÿÿ
+o	java:S116g"URename this field "resume_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íİƒ±ùÿÿÿÿ
+p	java:S116h"VRename this field "resume_pass" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì½Ğ€üÿÿÿÿ
+r	java:S116h"XRename this field "resume_refuse" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì½Ğ€üÿÿÿÿ
+g
+java:S1659g"LDeclare "resume_employee" and all following declarations on a separate line.(íİƒ±ùÿÿÿÿ
+F
+java:S1659h"+Declare "resume_refuse" on a separate line.(ì½Ğ€üÿÿÿÿ

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quick_Cash"
+        tools:targetApi="31">
+        <activity
+            android:name=".Employee.EmployeeIncomeChartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeRatingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeJobHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyLocalArea.LocalMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyLocalArea.MyLocalAreaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobPost.JobPostDetails"
+            android:exported="false" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCFUGr9yACB9l3LO0A-FlZ1mBYZyqs22nw" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Notification.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobPost.JobLocationMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".MainHomepages.PreferredJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobPost.AddJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainHomepages.BossActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainHomepages.WorkerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainHomepages.SelectRoleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Search.JobQueryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Credentials.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Credentials.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Search.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PayPal.PayPalPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Notification.JobAlertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeJobPostedHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.RecommendedEmployeesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Credentials.MainActivity"
+            android:exported="true">
+
+            <!-- REMOVE INTENT FILTER and Set android: exported to false when Login is complete -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

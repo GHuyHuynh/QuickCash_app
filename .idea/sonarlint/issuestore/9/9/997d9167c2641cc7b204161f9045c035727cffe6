@@ -1,0 +1,16 @@
+
+Q
+java:S3740T"/Provide the parametrized type for this generic.(†Õçüÿÿÿÿ8ô†î¿Â1
+F
+java:S1604‡"(Make this anonymous inner class a lambda(ñÒ£Ğ8ø†î¿Â1
+K
+java:S1604±"(Make this anonymous inner class a lambda(‡É¡Ğûÿÿÿÿ8ø†î¿Â1
+K
+java:S1604½"(Make this anonymous inner class a lambda(“ÍŸ’ÿÿÿÿÿ8ø†î¿Â1
+S
+java:S1153|"1Directly append the argument of String.valueOf().(½üÖ ıÿÿÿÿ8ü†î¿Â1
+S
+java:S1153~"1Directly append the argument of String.valueOf().(Ú³¿şÿÿÿÿ8ü†î¿Â1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¥¤÷8ş†î¿Â1
+Ÿ
+java:S1186¤"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8¢ˆî¿Â1

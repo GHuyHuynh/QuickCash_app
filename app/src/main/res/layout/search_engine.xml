@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_gradiant_backgroud"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Credentials.SignupActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro"
+                android:text="Search By..."
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/searchByName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/name_icon_24"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Name"
+                android:padding="8dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/searchByDate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/baseline_date_range_24"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Date"
+                android:padding="8dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/searchByDescription"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/description_icon"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Description"
+                android:padding="8dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/searchByLocation"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/location_icon"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Location"
+                android:padding="8dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/searchBySalary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawableLeft="@drawable/money_icon_24"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Salary"
+                android:padding="8dp"
+                android:textColor="@color/darkBlue" />
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:fontFamily="@font/sfpro"
+                android:text="Search"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+            <TextView
+                android:id="@+id/redirectBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/sfpro"
+                android:padding="8dp"
+                android:text="Go Back"
+                android:textColor="@color/lightBlue" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

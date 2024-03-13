@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="12dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    app:cardBackgroundColor="@color/neutral50"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/job_list_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkBlue"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Name"
+            android:textAlignment="center"
+            android:textColor="@color/neutral50"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/job_list_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Date"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/job_list_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Duration"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/job_list_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Location"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/job_list_employer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Employer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/job_list_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Salary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/job_list_urgency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Urgency"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/job_list_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Description"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

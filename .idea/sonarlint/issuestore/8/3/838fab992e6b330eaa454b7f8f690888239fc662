@@ -1,0 +1,23 @@
+
+|
+java:S1488)"_Immediately return this expression instead of assigning it to the temporary variable "payment".(«¦Ã8Ê£ÂÛÂ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(åŸÇœûÿÿÿÿ8Šáò˜¿1
+D
+java:S1125<"'Remove the unnecessary boolean literal.(–Š¨Ş8”áò˜¿1
+U
+java:S1128"8Remove this unused import 'androidx.annotation.NonNull'.(ˆÛúÜ8£°Õ¼¿1
+c
+java:S1128"FRemove this unused import 'com.google.firebase.database.DataSnapshot'.(şÇŒ„8£°Õ¼¿1
+i
+java:S1128"GRemove this unused import 'com.google.firebase.database.DatabaseError'.(ˆÔµıÿÿÿÿ8£°Õ¼¿1
+g
+java:S1128"KRemove this unused import 'com.google.firebase.database.DatabaseReference'.(ÉÓ¹8£°Õ¼¿1
+g
+java:S1128"JRemove this unused import 'com.google.firebase.database.FirebaseDatabase'.(×Ë—8¤°Õ¼¿1
+\
+java:S1128	"?Remove this unused import 'com.google.firebase.database.Query'.(ş¶Å®8¤°Õ¼¿1
+n
+java:S1128
+"LRemove this unused import 'com.google.firebase.database.ValueEventListener'.(‹ŞÜ‹ıÿÿÿÿ8¤°Õ¼¿1
+I
+java:S1068",Remove this unused "username" private field.(‘ó¹²8—áò˜¿1

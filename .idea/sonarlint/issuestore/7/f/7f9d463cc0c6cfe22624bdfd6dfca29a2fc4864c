@@ -1,0 +1,10 @@
+
+k
+java:S1192÷"HDefine a constant instead of duplicating this literal "resumes" 3 times.(¶è±‰üÿÿÿÿ8…òÜÂ1
+g
+java:S1192Ï"IDefine a constant instead of duplicating this literal "employer" 4 times.(¥‹˜“8…òÜÂ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆøñƒüÿÿÿÿ8ŠòÜÂ1
+ˆ
+java:S14504"fRemove the "switchPreferredEmployee" field and declare it as a local variable in the relevant methods.(îø€ûÿÿÿÿ8¬õÜÂ1
+}
+java:S1450?"[Remove the "userDataBase" field and declare it as a local variable in the relevant methods.(Öğ³üÿÿÿÿ8­õÜÂ1

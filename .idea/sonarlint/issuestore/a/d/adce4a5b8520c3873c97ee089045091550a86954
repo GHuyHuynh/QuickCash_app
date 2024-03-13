@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆøñƒüÿÿÿÿ
+A
+java:S1172e"+Remove this unused method parameter "view".(ÍÖú
+A
+java:S1172s"+Remove this unused method parameter "view".(’ÜÇã
+f
+java:S3252x"KUse static access with "android.widget.AdapterView" for "INVALID_POSITION".(Áš¿Íøÿÿÿÿ
+G
+java:S1172Œ"+Remove this unused method parameter "view".(±è™Øıÿÿÿÿ

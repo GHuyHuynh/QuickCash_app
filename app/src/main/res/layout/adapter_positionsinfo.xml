@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neutral50"
+    android:elevation="10dp"
+    app:cardCornerRadius="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/neutral50"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:id="@+id/adapter_job_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/sfpro"
+            android:text="The Job"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/adapter_job_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Description:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/adapter_job_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Date:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/adapter_job_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Duration:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/adapter_job_urgency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Urgency:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/adapter_job_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Salary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/adapter_job_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Job Location:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/adapter_job_employer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Employer"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/adapter_job_key"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:text="key"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnRecommendedEmployees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfpro"
+            android:text="Find Suggested Employees"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/worker_sendResume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/lightBlue"
+            android:fontFamily="@font/sfpro"
+            android:text="Apply"
+            android:textSize="20sp"
+            android:visibility="visible" />
+        <!--
+        <TextView
+            android:id="@+id/adapter_job_key"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:text="key"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/worker_sendResume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            />
+        -->
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

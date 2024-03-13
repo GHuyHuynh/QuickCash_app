@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlue"
+    android:orientation="vertical"
+    tools:context=".JobPost.AddJobActivity">
+
+    <Button
+        android:id="@+id/user_profile_back_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+        android:text="Return"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/neutral50"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro"
+                android:text="Submit Your Job"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/add_job_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Job Name"
+                android:includeFontPadding="false"
+                android:padding="15dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/add_job_date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Date (YYYY/MM/DD)"
+                android:includeFontPadding="false"
+                android:inputType="datetime|date"
+                android:padding="15dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/add_job_duration"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Duration (total hours)"
+                android:includeFontPadding="false"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/add_job_urgency"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Urgency"
+                android:includeFontPadding="false"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/add_job_salary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Salary (total)"
+                android:includeFontPadding="false"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/add_job_location"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Location"
+                android:includeFontPadding="false"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/darkBlue" />
+
+            <EditText
+                android:id="@+id/add_job_des"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_border"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/sfpro"
+                android:hint="Description"
+                android:includeFontPadding="false"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/darkBlue" />
+
+            <Button
+                android:id="@+id/add_job_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:fontFamily="@font/sfpro"
+                android:includeFontPadding="false"
+                android:padding="15dp"
+                android:text="Submit"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

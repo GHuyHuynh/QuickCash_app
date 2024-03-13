@@ -1,0 +1,32 @@
+
+e
+java:S1192|"IDefine a constant instead of duplicating this literal "UserInfo" 3 times.(½“¾A8ŞíßÁ1
+h
+java:S1192T"FDefine a constant instead of duplicating this literal "email" 5 times.(œ™åñùÿÿÿÿ8ŞíßÁ1
+e
+java:S1192S"IDefine a constant instead of duplicating this literal "username" 6 times.(ÒîÖc8ŞíßÁ1
+‚
+java:S1319Á"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(é¦ĞÄ8ŞíßÁ1
+E
+java:S1604O"(Make this anonymous inner class a lambda(Óï¯ 8ŞíßÁ1
+E
+java:S1604_"(Make this anonymous inner class a lambda(ã‘Àò8ŞíßÁ1
+K
+java:S1604Ê"(Make this anonymous inner class a lambda(¦”¤şÿÿÿÿ8ŞíßÁ1
+K
+java:S1604ƒ"(Make this anonymous inner class a lambda(Œ±™ÿÿÿÿÿ8ŞíßÁ1
+F
+java:S1604“"(Make this anonymous inner class a lambda(ÙÔ‚ù8Ûú¼¿Â1
+ƒ
+java:S1488á"`Immediately return this expression instead of assigning it to the temporary variable "userData".( êÒ¬üÿÿÿÿ8ŞíßÁ1
+T
+java:S1153"1Directly append the argument of String.valueOf().(ŒÙØ–şÿÿÿÿ8ŞíßÁ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„İÜÛÿÿÿÿÿ8ŞíßÁ1
+_
+java:S1117š"<Rename "username" which hides the field declared at line 39.(¢şä‘ûÿÿÿÿ8±ŞíßÁ1
+c
+java:S1858š"@"getKey" returns a string, there's no need to call "toString()".(¢şä‘ûÿÿÿÿ8±ŞíßÁ1
+F
+java:S1905²"(Remove this unnecessary cast to "float".(Ï°­™8²ŞíßÁ1
+]
+java:S1161¸":Add the "@Override" annotation above this method signature(èëÔíÿÿÿÿÿ8¸ŞíßÁ1

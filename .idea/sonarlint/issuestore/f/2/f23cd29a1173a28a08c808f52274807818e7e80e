@@ -1,0 +1,12 @@
+
+f
+java:S1192Ÿ"IDefine a constant instead of duplicating this literal "UserInfo" 3 times.(½“¾A8›ÙÁÀ1
+h
+java:S11922"FDefine a constant instead of duplicating this literal "email" 3 times.(áŞ÷ƒúÿÿÿÿ8™ÿ†²Â1
+k
+java:S11923"IDefine a constant instead of duplicating this literal "username" 3 times.(Öä£®ûÿÿÿÿ8šÿ†²Â1
+J
+java:S1604B"(Make this anonymous inner class a lambda(é¾Ë°üÿÿÿÿ8›ÿ†²Â1
+E
+java:S1604Q"(Make this anonymous inner class a lambda(¡Éü«8›ÙÁÀ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„İÜÛÿÿÿÿÿ8›ÙÁÀ1

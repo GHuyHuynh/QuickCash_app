@@ -1,0 +1,31 @@
+
+Q
+java:S3740H"/Provide the parametrized type for this generic.(†Õçüÿÿÿÿ8¾¨³§¼1
+r	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç’„Õøÿÿÿÿ8äïè×¹1
+J
+java:S1604q"(Make this anonymous inner class a lambda(¹¸¦Ïúÿÿÿÿ8Ã¨³§¼1
+K
+java:S1604ƒ"(Make this anonymous inner class a lambda(“ÍŸ’ÿÿÿÿÿ8Ä¨³§¼1
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷¿âûÿÿÿÿ
+S
+java:S1153i"1Directly append the argument of String.valueOf().(˜øĞÅûÿÿÿÿ8æïè×¹1
+S
+java:S1153k"1Directly append the argument of String.valueOf().(“ÿÀçûÿÿÿÿ8æïè×¹1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¥¤÷
+`
+java:S1858w"C"substring" returns a string, there's no need to call "toString()".(Ÿâ™”8ú©³§¼1
+]	java:S125}"<This block of commented-out lines of code should be removed.(¿ÉÒäşÿÿÿÿ8†ª³§¼1
+S
+java:S1905‰"5Remove this unnecessary cast to "Model_Job_Position".(áŞ·˜8¥ª³§¼1
+u	java:S116”"SRename this field "job_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¬ñŞøÿÿÿÿ8§ª³§¼1
+t	java:S116”"RRename this field "job_des" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¬ñŞøÿÿÿÿ8§ª³§¼1
+u	java:S116”"SRename this field "job_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¬ñŞøÿÿÿÿ8¨ª³§¼1
+y	java:S116”"WRename this field "job_duration" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¬ñŞøÿÿÿÿ8¨ª³§¼1
+x	java:S116”"VRename this field "job_urgency" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¬ñŞøÿÿÿÿ8¨ª³§¼1
+w	java:S116”"URename this field "job_salary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¬ñŞøÿÿÿÿ8©ª³§¼1
+y	java:S116”"WRename this field "job_location" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¬ñŞøÿÿÿÿ8©ª³§¼1
+y	java:S116”"WRename this field "job_employer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¬ñŞøÿÿÿÿ8ªª³§¼1
+t	java:S116”"RRename this field "job_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¬ñŞøÿÿÿÿ8«ª³§¼1
+x	java:S116•"VRename this field "send_resume" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œáíüÿÿÿÿ8«ª³§¼1
+g
+java:S1659”"DDeclare "job_des" and all following declarations on a separate line.(Ğ¬ñŞøÿÿÿÿ8®ª³§¼1

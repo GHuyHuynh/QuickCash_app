@@ -1,0 +1,18 @@
+
+k
+java:S11928"IDefine a constant instead of duplicating this literal "username" 3 times.(µÈäëüÿÿÿÿ8ËÂÛÂ1
+‡
+java:S1319‘"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(®İïûÿÿÿÿ8ÎÂÛÂ1
+J
+java:S16044"(Make this anonymous inner class a lambda(óğş¥ûÿÿÿÿ8ÏÂÛÂ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„İÜÛÿÿÿÿÿ8Àøı±Â1
+Y
+java:S2589u"7Remove this expression which always evaluates to "true"(ã¾äİüÿÿÿÿ8¸ÂÛÂ1
+t
+java:S3776d"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(³×ˆúÿÿÿÿ8ñÂÛÂ1
+Q
+java:S1172d"/Remove this unused method parameter "username".(³×ˆúÿÿÿÿ8òÂÛÂ1
+`
+java:S1155o">Use isEmpty() to check whether the collection is empty or not.(½¶¶«ıÿÿÿÿ8øÂÛÂ1
+Q
+java:S1144 ".Remove this unused private "showToast" method.(Àû…ğúÿÿÿÿ8üˆŸÜÂ1

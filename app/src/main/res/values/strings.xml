@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quick_Cash</string>
+    <string name="search_title">Search By...</string>
+    <string name="person">Change user type</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_local_map">LocalMapActivity</string>
+</resources>
